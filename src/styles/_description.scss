@@ -1,0 +1,42 @@
+.description {
+    font-size: 1.2em;
+    padding: 5.6vw;
+    padding-bottom: 50px;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(141, 129, 153);
+
+    &__title {
+        font-size: 32px;
+        
+        text-align: center;
+        padding-top: 80px;
+        padding-bottom: 32px;
+        
+    
+    }
+
+    .hidden {
+        opacity: 0;
+        filter: blur(5px);
+        transform: translateX(-100%);
+        transition: all 2s;
+    }
+
+    .visible {
+        opacity: 1;
+        filter: blur(0);
+        transform: translateX(0);
+    }
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+    
+}

@@ -1,0 +1,45 @@
+.hero {
+    display: flex;
+    padding: 5.6vw;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+    &__title{
+        margin-top: 64px;
+        margin-bottom: 64px;
+        text-align: center;
+        font-family: "Meow Script", cursive;
+        font-size: 5em;
+        color: #ff9877;
+    }
+    &__subtitle {
+        font-size: 1em;
+        padding-bottom: 40px;
+    }
+    
+
+    &__timer {
+        margin-top: 32px;
+        text-align: center;
+        font-size: 3em;
+        font-weight: bold;
+        color: #f154ff;
+        
+        &:hover {
+            color:#ff9877;
+        }
+    }
+
+    @media (max-width: 640px) {
+        
+        display: block;
+    }
+}
+

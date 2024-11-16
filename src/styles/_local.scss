@@ -1,0 +1,40 @@
+.local {
+    background-color: #ff9877;
+    
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    margin: auto;
+    
+    justify-content: center;
+    align-items: center;
+
+  
+
+    &__text {
+        position: relative;
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+        transition: 0.5s;
+        font-size: 2em;
+        transform-origin: left;
+        transform: scaleX(1);
+        
+    }
+    
+    .hidden {
+        opacity: 0;
+        filter: blur(5px);
+        
+        transition: all 4s;
+    }
+
+    .visible {
+        opacity: 1;
+        filter: blur(0);
+        
+    }
+
+    
+}
